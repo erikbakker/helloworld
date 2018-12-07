@@ -1,0 +1,23 @@
+{
+    "name": "erikbakker/helloworld",
+    "description": "Hello world package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Bakker",
+            "email": "erik@trifonius-it.nl"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "erikbakker\\helloworld\\": "src/"
+        }
+    }
+}
