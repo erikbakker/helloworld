@@ -1,4 +1,5 @@
-<?php namespace erikbakker\HelloWorld;
+<?php 
+namespace Piet;
 
 /**
 *  A sample class

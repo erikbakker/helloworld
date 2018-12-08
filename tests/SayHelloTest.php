@@ -21,7 +21,7 @@ class SayHelloTest extends TestCase
   */
   public function testIsThereAnySyntaxError()
   {
-	$var = new erikbakker\helloworld\SayHello;
+	$var = new Piet\SayHello;
 	$this->assertTrue(is_object($var));
 	unset($var);
   }
@@ -35,7 +35,7 @@ class SayHelloTest extends TestCase
   */
   public function testSayHello()
   {
-	$var = new erikbakker\helloworld\SayHello;
+	$var = new Piet\SayHello;
 	$this->assertTrue($var->world("Hello World") == "Hello World");
 	unset($var);
   } 
